@@ -22,4 +22,9 @@ public class DemoController {
     public String getValueOfFirstInitializer() {
         return String.format("FirstInitializer set value of key1 is %s", applicationContext.getEnvironment().getProperty("key1"));
     }
+
+    @GetMapping("/getValueOfSecondInitializer")
+    public String getValueOfSecondInitializer() {
+        return String.format("SecondInitializer set value of key2 is %s", applicationContext.getEnvironment().getProperty("key2"));
+    }
 }

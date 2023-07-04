@@ -1,2 +1,2 @@
 # Officially document: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto.application.customize-the-environment-or-application-context
-context.initializer.classes=com.zjt.initialize.FirstInitializer
+org.springframework.context.ApplicationContextInitializer=com.zjt.initialize.SecondInitializer
